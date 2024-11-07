@@ -1,0 +1,59 @@
+body{
+    height: 100rem;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    height: 33rem;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://img.freepik.com/free-photo/asian-businessmen-businesswomen-meeting-brainstorming-ideas-about-creative-web-design-planning-application-developing-template-layout-mobile-phone-project-working-together-small-office_7861-2682.jpg?w=1380&t=st=1669950088~exp=1669950688~hmac=43038f2cb990513aac0ff966f167c4ec2d26d23f651b8c1624af1e9be85a9a94');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12rem 5rem 12rem 5rem;
+}
+
+.hero-font{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-font h1{
+    color: white;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+.hero-font span{
+    color: white;
+    margin: 1rem;
+}
+
+.hero-font button{
+    align-items: center;
+    margin: 1rem;
+    width: 8rem;
+    height: 3rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    padding: 0.5rem 1.3rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    opacity: 90%;
+    font-weight: bold;
+}
+
+.hero-font button:hover{
+    background-color: rgb(0, 0, 0);
+    opacity: 90%;
+    color: rgb(255, 255, 255);
+}
